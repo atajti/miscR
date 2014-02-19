@@ -1,0 +1,13 @@
+is.true <- function(x){
+  # This function checks if a value
+  #  is TRUE. For NA, returns FALSE
+  # x: logical vector
+  return(!is.na(x) & x)
+}
+
+is.false <- function(x){
+  # This function checks if a value
+  #  is FALSE. For NA, returns FALSE
+  # x: logical vector
+  return(!is.na(x) & !x)
+}
